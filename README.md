@@ -2,6 +2,12 @@
 
 This mini project will implement a simple search engine using Vector Space Model. The data will be crawled from Vietnamese daily news such as [VnExpress](https://vnexpress.net/), [VietnamNet](http://vietnamnet.vn/), [Thanhnien](https://thanhnien.vn/) and [Laodong](https://laodong.vn/).
 
+## Pre-Requisites
+- pip install virtualenv
+- virtualenv venv
+- venv\Scripts\activate
+- pip install requests underthesea beautifulsoup4 pytest lxml
+
 ## Tools
 
 - Install [Python 3.5+](https://www.python.org/) and [Pip](https://pypi.org/project/pip/) if not installed.
